@@ -1,0 +1,121 @@
+:root {
+   --brancoprincipal: #FFFF;
+   --cinzasecundario:#c0c0c0;
+   --botaoazul:#167BF7;
+   --cordefundo:#00030C;
+   --fonteprincipal: 'inter';
+}
+body{
+    background-color: var(--cordefundo);
+    color: var(--brancoprincipal);
+    font-family: var(--fonteprincipal);
+    font-size: 16px;
+    font-weight: 400;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+.principal{
+    background-image: url(img/Background.png);
+    background-repeat:no-repeat;
+    background-size:contain ;
+    align-items: center;
+    text-align: center;
+}
+.container{
+  height: 100vh;
+  display:grid;
+  grid-template-columns: 50% 50%;
+}
+.container-botao{
+    background-color: var(--botaoazul); 
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--brancoprincipal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.botao_secundario {
+    background-color:transparent ;
+    border: 2px solid var(--brancoprincipal);
+}
+.container_aviso{
+    font: size 12px; 
+    color: var(--cinzasecundario);
+}
+.container_titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+.container_img{
+  margin: 1em 0 2em 0;
+}
+.container_caixa{
+  margin: 0 6em;  
+}
+.secundario_img {
+  width: 80%;
+}
+.secundario {
+    align-items: center;
+    margin: 0 10em ;
+}
+.descricao_titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--brancoprincipal);
+    margin-bottom: 0.1em; 
+}
+.descricao_texto{
+    color: var(--cinzasecundario);
+}
+.secundario_botao{
+    display:inline-block;
+    margin-top: 1em;
+}
+.container_descricao{
+    padding: 2em;
+}
+
+.dispositivos_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos_titulo{
+    font-size: 48px;
+    color: var(--brancoprincipal);
+}
+
+.lista_item{
+    font-size:32px ;
+    color: var(--brancoprincipal);
+}
+.rodape_lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+    font-size: 11px;
+}
+.lista_link a {
+    text-decoration: none;
+    color: var(--brancoprincipal);
+    margin-left: 1em;
+}
+.rodape_texto {
+    margin: 1em 0;
+    color: var(--cinzasecundario);
+    font-size: 14px;
+}
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
